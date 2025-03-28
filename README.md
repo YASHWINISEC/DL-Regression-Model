@@ -121,21 +121,20 @@ print(f"Prediction for input 55: {predicted_output:.2f}")
 ```
 
 ### Dataset Information
-![image](https://github.com/user-attachments/assets/4b174392-c01e-40b0-ab9e-ef32371bbafe)
+![image](https://github.com/user-attachments/assets/d44f887b-9e08-428a-8509-d2b009c8180c)
 
 ### OUTPUT
-Training Loss Vs Iteration Plot
+Training Loss Vs Epochs
 
-![image](https://github.com/user-attachments/assets/ecb45570-f01b-4c8b-a5d6-2a0f32058b47)
+![image](https://github.com/user-attachments/assets/9e754e2d-6d8d-454b-aab5-4bdd223f5b0d)
 
 Best Fit line plot
 
-![image](https://github.com/user-attachments/assets/a36623f7-3511-494f-9358-baa6151ddcba)
+![image](https://github.com/user-attachments/assets/aa12cbd9-4a24-4067-9511-49ad0f93af81)
 
 ### New Sample Data Prediction
 
-![image](https://github.com/user-attachments/assets/df3bf07c-4bf5-4ae4-89af-4f80bfc6b27d)
-
+![image](https://github.com/user-attachments/assets/c5d68287-b21b-41d9-86cb-ea65f979a5e5)
 
 ## RESULT
 Thus, a neural network regression model was successfully developed and trained using PyTorch.
