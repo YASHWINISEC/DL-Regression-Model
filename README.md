@@ -54,8 +54,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 np.random.seed(42)
-x = np.arange(1, 51, dtype=np.float32).reshape(-1, 1)
+x = np.arange(1, 71, dtype=np.float32).reshape(-1, 1)
 y = 3.5 * x + np.random.normal(0, 5, size=x.shape)
+
+x = (x - x.mean()) / x.std()
 
 x_train = torch.tensor(x, dtype=torch.float32)
 y_train = torch.tensor(y, dtype=torch.float32)
