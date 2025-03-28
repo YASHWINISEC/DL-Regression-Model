@@ -1,3 +1,5 @@
+# Developing a Neural Network Regression Model
+
 ## AIM
 To develop a neural network regression model for the given dataset.
 
@@ -58,7 +60,6 @@ y = 3.5 * x + np.random.normal(0, 5, size=x.shape)
 x_train = torch.tensor(x, dtype=torch.float32)
 y_train = torch.tensor(y, dtype=torch.float32)
 
-
 class Model(nn.Module):
     def __init__(self, in_features, out_features):
         super().__init__()
@@ -115,8 +116,6 @@ plt.show()
 new_sample = torch.tensor([[55.0]])
 predicted_output = model(new_sample).item()
 print(f"Prediction for input 55: {predicted_output:.2f}")
-
-
 ```
 
 ### Dataset Information
@@ -124,13 +123,17 @@ print(f"Prediction for input 55: {predicted_output:.2f}")
 
 ### OUTPUT
 Training Loss Vs Iteration Plot
+
 ![image](https://github.com/user-attachments/assets/ecb45570-f01b-4c8b-a5d6-2a0f32058b47)
 
 Best Fit line plot
-![image](https://github.com/user-attachments/assets/80045ec1-32fd-4c4c-a275-782a5cb832dc)
+
+![image](https://github.com/user-attachments/assets/a36623f7-3511-494f-9358-baa6151ddcba)
 
 ### New Sample Data Prediction
-Include your sample input and output here
+
+![image](https://github.com/user-attachments/assets/df3bf07c-4bf5-4ae4-89af-4f80bfc6b27d)
+
 
 ## RESULT
 Thus, a neural network regression model was successfully developed and trained using PyTorch.
