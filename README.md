@@ -130,11 +130,12 @@ Training Loss Vs Epochs
 
 Best Fit line plot
 
-![image](https://github.com/user-attachments/assets/aa12cbd9-4a24-4067-9511-49ad0f93af81)
+![image](https://github.com/user-attachments/assets/bea8af5d-75c0-45a0-b98a-dbe0349b9a8a)
+
 
 ### New Sample Data Prediction
 
-![image](https://github.com/user-attachments/assets/c5d68287-b21b-41d9-86cb-ea65f979a5e5)
+![image](https://github.com/user-attachments/assets/33c55d4c-fd51-44e4-91eb-900ca2bdd08c)
 
 ## RESULT
 Thus, a neural network regression model was successfully developed and trained using PyTorch.
