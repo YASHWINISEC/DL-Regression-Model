@@ -101,9 +101,9 @@ print(f"\nPrediction for x = 120:  {y_new_pred:.8f}")
 ![image](https://github.com/user-attachments/assets/c670c971-1201-45dd-8af1-4fe7aad5bd63)
 ![image](https://github.com/user-attachments/assets/008abf79-59b8-4a0f-81ad-fc57109e2486)
 ### OUTPUT
-Training Loss Vs Epochs
+## Training Loss Vs Epochs
 ![image](https://github.com/user-attachments/assets/209848d6-24c0-442d-8483-d02d48485125)
-Best Fit line plot
+## Best Fit line plot
 ![image](https://github.com/user-attachments/assets/049ecea2-b0ee-405b-ae15-acefb8ca0439)
 ### New Sample Data Prediction
 ![image](https://github.com/user-attachments/assets/4beab567-debd-452e-a449-37ef407b74ab)
